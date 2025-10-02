@@ -1,0 +1,39 @@
+body{
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; 
+  background-image: url('react logo.jpg') ;
+  background-repeat: no-repeat;
+  background-position: right 65%;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 1em;
+}
+
+/* how to change the list style color: only the color of the dots */
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul li:before {
+  content: "• ";
+  color: blue;
+  font-size: 1rem;
+}
